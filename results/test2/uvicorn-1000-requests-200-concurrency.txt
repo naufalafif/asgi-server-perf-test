@@ -1,0 +1,109 @@
+Summary:
+  Total:	5.7497 secs
+  Slowest:	1.6403 secs
+  Fastest:	1.0051 secs
+  Average:	1.1280 secs
+  Requests/sec:	173.9231
+
+  Total data:	16830 bytes
+  Size/request:	18 bytes
+
+Response time histogram:
+  1.005 [1]	|
+  1.069 [734]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  1.132 [0]	|
+  1.196 [0]	|
+  1.259 [0]	|
+  1.323 [1]	|
+  1.386 [17]	|■
+  1.450 [13]	|■
+  1.513 [40]	|■■
+  1.577 [54]	|■■■
+  1.640 [75]	|■■■■
+
+
+Latency distribution:
+  10% in 1.0090 secs
+  25% in 1.0115 secs
+  50% in 1.0168 secs
+  75% in 1.0445 secs
+  90% in 1.5677 secs
+  95% in 1.6018 secs
+  99% in 1.6346 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0043 secs, 1.0051 secs, 1.6403 secs
+  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0000 secs
+  req write:	0.0008 secs, 0.0000 secs, 0.0372 secs
+  resp wait:	1.1227 secs, 1.0051 secs, 1.6231 secs
+  resp read:	0.0001 secs, 0.0000 secs, 0.0006 secs
+
+Status code distribution:
+  [200]	935 responses
+
+Error distribution:
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57271->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57272->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57273->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57274->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57275->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57276->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57277->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57278->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57279->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57280->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57281->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57282->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57283->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57284->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57285->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57286->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57287->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57288->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57289->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57290->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57291->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57292->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57293->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57294->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57295->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57296->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57297->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57298->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57299->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57300->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57301->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57302->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57303->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57304->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57305->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57306->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57307->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57308->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57309->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57310->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57311->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57312->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57313->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57314->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57315->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57316->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57317->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57318->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57319->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57320->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57321->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57322->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57323->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57324->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57325->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57326->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57327->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57328->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57329->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57330->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57331->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57332->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57333->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57334->127.0.0.1:8000: read: connection reset by peer
+  [1]	Get "http://127.0.0.1:8000/": read tcp 127.0.0.1:57335->127.0.0.1:8000: read: connection reset by peer
