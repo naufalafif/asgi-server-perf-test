@@ -1,0 +1,4 @@
+both can give good response time.
+
+daphne is good at making sure response time spread equaly. but fail when handling high concurrency, 30% failure on 1000 request & 200 concurrency
+uvicorn is decent at making sure response time spread equaly. & able to handle high concurrency
