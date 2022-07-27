@@ -19,10 +19,15 @@ There are 2 types of test, high request & high concurrency + request
 > pipenv install
 
 -- Running Test
-- run the app
-> make daphne.  <--- this will run app using daphne
+run the app
+> make daphne  <--- this will run app using daphne
 or 
 > make uvicorn  <--- this will run app using uvicorn
+
+run the test
+> make test-req  <--- this will run high request test
+or
+> make test-req-con  <--- this will run high request + concurrency test
 ```
 
 ### Results
