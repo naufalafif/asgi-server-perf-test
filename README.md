@@ -1,6 +1,6 @@
 ## Daphne & Uvicorn Performance Test
 
-## How the test done ?
+### How the test done ?
 ```
 There are 2 types of test, high request & high concurrency + request
 
@@ -8,7 +8,7 @@ There are 2 types of test, high request & high concurrency + request
 -- high concurrency + request will test the app with 200 concurrency with total request of 1000
 ```
 
-## How to run the test ?
+### How to run the test ?
 ```
 -- Required App: 
 > hey. ref: https://github.com/rakyll/hey
